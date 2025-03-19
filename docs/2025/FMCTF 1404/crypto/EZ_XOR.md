@@ -4,7 +4,7 @@
 ![Challenge](challenge.png)
 
 We are given this python script:
-```py linenums="1" title="chall.py"
+```py linenums="1" title="EZ_XOR.py"
 from pwn import *
 FLAG = os.environ.get("FLAG", "FMCTF{F4K3_FL49}").encode()
 key = os.urandom(7)
